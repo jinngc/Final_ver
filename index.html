@@ -797,7 +797,8 @@
                 }
             })
 
-            var ending_pos = $("#ending").offset().top - 800;
+            var ending_pos = document.getElementById("lanyumap").offsetTop + document.getElementById("lanyumap").offsetHeight - 1000;
+            // var ending_pos = $("#lanyumap").offset().top - 800;
             var ending_audio = document.getElementById("ending_audio")
 
 
@@ -931,7 +932,7 @@
                 var scrolled = $(document).scrollTop();
                 var winh = $(window).height();
                 $(".opa5").each(function () {
-                    var opRange = $(this).parent().parent().height() / 7;
+                    var opRange = $(this).parent().parent().height() / 8.5;
                     $(this).css({
                         opacity: ($(this).data("seq") * opRange - scrolled + 46 *
                                 winh) /
