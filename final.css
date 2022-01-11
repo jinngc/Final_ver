@@ -105,6 +105,10 @@ a {
     z-index: 15;
 }
 
+.lyrics{
+height: 100vh;
+}
+
 .earth-img {
     position: absolute;
     width: 100vw;
@@ -735,7 +739,7 @@ h4 {
 }
 
 #twelve {
-    background-color: white;
+    background-color: black;
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -745,7 +749,7 @@ h4 {
 
 #ending {
     background-color: black;
-    height: 100vh;
+    height: 150vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -753,6 +757,26 @@ h4 {
 }
 
 .ending {
+    margin-top: 100px;
+    font-size: 22px;
+    color: white;
+    font-family:  'Noto Serif TC', serif,'PMingLiU';
+    font-weight: "bold";
+    text-align: center;
+    
+}
+
+.ending1 {
+    margin-top: 100px;
+    font-size: 22px;
+    color: white;
+    font-family:  'Noto Serif TC', serif,'PMingLiU';
+    font-weight: "bold";
+    text-align: center;
+    /* height: 100vh; */
+}
+
+.ending2 {
     margin-top: 100px;
     font-size: 22px;
     color: white;
