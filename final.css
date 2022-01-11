@@ -113,6 +113,14 @@ a {
     opacity: 1;
 }
 
+#mute_icon {
+position: absolute;
+top: 100px;
+width: 100px;
+height: 100px;
+
+}
+
 #float1 {
     z-index: 20;
     height: 500vh;
@@ -736,7 +744,7 @@ h4 {
 }
 
 #ending {
-    background-image: url(飛翔.JPG);
+    background-color: black;
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
