@@ -747,9 +747,17 @@ h4 {
     background-size: cover;
 }
 
+p3 {
+    font-size: 18px;
+    color: white;
+    font-family: "PMingLiU";
+    font-weight: "bold";
+    text-align: center;
+}
+
 #ending {
     background-color: black;
-    height: 150vh;
+    height: 700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
